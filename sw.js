@@ -11,8 +11,8 @@
  * - Other files: cache first. Vite names them by content hash, so a cached
  *   file never goes stale; a new build brings new names and a new cache.
  */
-const CACHE = 'app-92d115c182';
-const PRECACHE = ["./assets/index-B1GjiKuo.css", "./assets/index-D6m1UUZY.js", "./assets/rubik-hebrew-400-normal-Dp0lvSRB.woff2", "./assets/rubik-hebrew-500-normal-B_5jqoVI.woff2", "./assets/rubik-hebrew-600-normal-CpCbvE17.woff2", "./assets/rubik-latin-400-normal-j0pmKyiQ.woff2", "./assets/rubik-latin-500-normal-1os41rQk.woff2", "./assets/rubik-latin-600-normal-7iWW07_k.woff2"];
+const CACHE = 'app-64eea2723b';
+const PRECACHE = ["./assets/index-8f3K9KTQ.css", "./assets/index-If-bEdJc.js", "./assets/rubik-hebrew-400-normal-Dp0lvSRB.woff2", "./assets/rubik-hebrew-500-normal-B_5jqoVI.woff2", "./assets/rubik-hebrew-600-normal-CpCbvE17.woff2", "./assets/rubik-latin-400-normal-j0pmKyiQ.woff2", "./assets/rubik-latin-500-normal-1os41rQk.woff2", "./assets/rubik-latin-600-normal-7iWW07_k.woff2"];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
